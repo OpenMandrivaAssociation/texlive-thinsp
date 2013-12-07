@@ -6,7 +6,7 @@
 # catalog-version 0.1
 Name:		texlive-thinsp
 Version:	0.1
-Release:	4
+Release:	5
 Summary:	A stretchable \thinspace for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/thinsp
