@@ -1,12 +1,6 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/thinsp
-# catalog-date 2008-08-24 14:46:50 +0200
-# catalog-license gpl
-# catalog-version 0.1
 Name:		texlive-thinsp
-Version:	0.1
-Release:	10
+Version:	0.2
+Release:	1
 Summary:	A stretchable \thinspace for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/thinsp
@@ -31,11 +25,8 @@ The package redefines \thinspace to have a stretch component.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/thinsp/thinsp.sty
-%doc %{_texmfdistdir}/doc/latex/thinsp/COPYIRIGHT
-%doc %{_texmfdistdir}/doc/latex/thinsp/README
-%doc %{_texmfdistdir}/doc/latex/thinsp/thinsp.pdf
-%doc %{_texmfdistdir}/doc/latex/thinsp/thinsp.tex
+%{_texmfdistdir}/tex/latex/thinsp
+%doc %{_texmfdistdir}/doc/latex/thinsp
 
 #-----------------------------------------------------------------------
 %prep
@@ -46,16 +37,3 @@ The package redefines \thinspace to have a stretch component.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1-2
-+ Revision: 756831
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.1-1
-+ Revision: 719728
-- texlive-thinsp
-- texlive-thinsp
-- texlive-thinsp
-
