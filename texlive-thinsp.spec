@@ -3,7 +3,7 @@ Version:	39669
 Release:	2
 Summary:	A stretchable \thinspace for LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/thinsp
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/thinsp
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/thinsp.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/thinsp.doc.r%{version}.tar.xz
